@@ -1,0 +1,28 @@
+import "./Aboutimgstyles.css";
+import React from 'react'
+import aboutimg from "../assets/93243816.jpg";
+
+const Aboutimg = () => {
+  return (
+    <div className = "about-me">
+
+            <div className = "image-card">
+                <img src ={aboutimg} alt="aboutimg" />
+
+          
+            <p>Lorem ipsum dolor s
+              it amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+               labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc
+               itation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fu
+                giat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+                    </p>
+                
+            </div>
+
+        </div>
+  )
+}
+
+export default Aboutimg

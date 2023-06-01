@@ -1,0 +1,22 @@
+.pagesection {
+    max-width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    
+}
+p{
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+
+
+
+@media screen and (max-width: 740px) {
+    p{
+        font-size: 2.2rem;
+
+    } 
+}
